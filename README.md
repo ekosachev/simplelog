@@ -11,7 +11,7 @@ This is a simple package that allows for logging-to-stdout functionality. Basica
 
 ## 🧑🏻‍💻 Usage
 ```py
-from simplelog import Logger
+from simplelog.logger import Logger
 
 my_logger = Logger()
 
