@@ -1,0 +1,18 @@
+[project]
+name = "simplelog"
+description = "This package allows for simple logging-to-stdout functionality"
+version = "0.1.0"
+authors = [
+    {name = "Egor Kosachev", email = "egorkosachev@vk.com"}
+]
+readme = "README.md"
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Topic :: System :: Logging",
+    "Topic :: Utilities",
+]
