@@ -29,7 +29,7 @@ class LogStyle(object):
         else:
             tag: str = self.color.value
         if self.modifiers:
-            tag += f" {' '.join(m for m in self.modifiers)}"
+            tag += f" {' '.join(self.modifiers)}"
 
         return tag
 
